@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for the backend API - update this when backend is ready
-const API_BASE_URL = process.env.API_BASE_URL;
+const API_BASE_URL = "https://backend-production-3b0e.up.railway.app/api";
 
 // DEMO MODE - Set to true to use mock data without backend
 const DEMO_MODE = false;
