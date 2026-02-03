@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for the backend API - update this when backend is ready
-const API_BASE_URL = 'http://localhost:5001/api';
+const API_BASE_URL = process.env.API_BASE_URL;
 
 // DEMO MODE - Set to true to use mock data without backend
 const DEMO_MODE = false;
